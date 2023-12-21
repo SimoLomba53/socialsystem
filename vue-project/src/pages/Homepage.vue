@@ -76,18 +76,39 @@ AOS.init();
             <div class="offercont text-center" style="width: 50%;">
             <h1 style="font-size: 250px;">I NOSTRI SERVIZI</h1>
              <div class="iconoffer d-flex align-items-center justify-content-between mb-5">
-               <div><img src="/phone.png" alt=""><h3>Web Development</h3></div>
-               <div><img src="/code.png" alt=""><h3>SSM</h3></div>
-               <div><img src="/chat.png" alt=""><h3>Foto e Video</h3></div>
+               <div><img src="/codeicon.png" alt=""><h3>Web Development</h3></div>
+               <div><img src="/socialicon.png" alt=""><h3>SSM</h3></div>
+               <div><img src="/chaticon.png" alt=""><h3>Recensioni</h3></div>
              </div>
              <div class="d-flex align-items-center justify-content-between mt-5">
-                 <div><img src="/mail.png" alt=""><h3>Promo</h3></div>
-                 <div><img src="/mail.png" alt=""><h3>Content Create</h3></div>
-                 <div><img src="/mail.png" alt=""><h3>Service</h3></div>
+                 <div><img src="/videoicon.png" alt=""><h3>Content Create</h3></div>
+                 <div><img src="/graficon.png" alt=""><h3>Sponsor</h3></div>
+                 <div><img src="/assistenzaicon.png" alt=""><h3>Assistenza</h3></div>
              </div>
             </div>
           </div>
           </section>
+
+          <section>
+            <div class="teampart d-flex justify-content-center align-items-center">
+              <div class="teamcontent d-flex justify-content-center align-items-center flex-column">
+              <h1 class="text-center mb-5">IL NOSTRO TEAM</h1>
+              <div class="teamimage d-flex">
+                <div><img src="/teamfoto.jpg" alt=""></div>
+                <div><img src="/teamfoto.jpg" alt=""></div>
+                <div><img src="/teamfoto.jpg" alt=""></div>
+                <div><img src="/teamfoto.jpg" alt=""></div>
+              </div>  
+
+              </div>
+            </div>
+          </section>
+
+          
+  
+  <!-- End of .container -->
+
+          
           
      
       </body>
@@ -163,7 +184,7 @@ AOS.init();
 }
 
 .offercont h3{
-  font-size: 50px;
+  font-size: 70px;
   color: #d6d6d6;
 }
 
@@ -207,8 +228,51 @@ AOS.init();
   
 }
 
+.offercont img{
+  width: 650px;
+  transition: 1s;
+}
+
+.offercont img:hover{
+ transform: scale(1.1); 
+}
 
 
+.teampart{
+  width: 100%;
+  height: 100vh;
+  background-color: #202020;
+}
+
+.teamcontent{
+  width: 70%;
+}
+
+.teamcontent h1{
+  color: #c6a567;
+  font-size: 250px;
+  text-align: center !important;
+}
+
+.teamimage img{
+  width: 100%;
+  transition: 1s;
+  height: 60vh;
+
+
+}
+
+.teamimage img:hover{
+  filter: grayscale(80%); 
+
+
+}
+
+.teamimage div{
+  width: 25%;
+
+
+}
 
 
 </style>
