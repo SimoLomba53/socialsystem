@@ -94,19 +94,20 @@ AOS.init();
               <div class="teamcontent d-flex justify-content-center align-items-center flex-column">
               <h1 class="text-center mb-5">IL NOSTRO TEAM</h1>
               <div class="teamimage d-flex">
-                <div><img src="/teamfoto.jpg" alt=""></div>
-                <div><img src="/teamfoto.jpg" alt=""></div>
-                <div><img src="/teamfoto.jpg" alt=""></div>
-                <div><img src="/teamfoto.jpg" alt=""></div>
+                <div><img src="/slteam4.png" alt=""></div>
+                <div><img src="/amteam.png" alt=""></div>
+                <div><img src="/tmteam.png" alt=""></div>
+                <div><img src="/idteam.png" alt=""></div>
               </div>  
 
               </div>
             </div>
           </section>
 
+        
           
   
-  <!-- End of .container -->
+ 
 
           
           
