@@ -16,7 +16,10 @@
                    <ul>
                        <li>
                          <router-link :to="{ name: 'ProjectList' }">
-                           <p><img src="/logosocialsystem2.png" alt="" style="width: 20%;">SOCIAL SYSTEM</p>
+                         <div class="d-flex flex-row align-items-center">
+                           <img src="/logosocialsystem2.png" alt="" style="width: 20%;">
+                           <p class="d-none d-md-block">SOCIAL SYSTEM</p>
+                         </div>
                         </router-link>
                        </li>
                    </ul>
@@ -37,7 +40,7 @@
          <section>
               <div class="intro d-flex justify-content-center align-items-center">
                <div data-aos="fade-up"
-            data-aos-duration="3000" class="text-center" style="width: 50%;">
+            data-aos-duration="3000" class="projectdescription text-center p-5" style="width: 50%;">
                <h1 style="font-size: 250px;">IL NOSTRO OBIETTIVO?</h1>
                 <p>Collaborare con aziende e attività con alto potenziale di crescita,e portarle al massimo della loro rendità economica,sfruttando l'online e le nostre strategie di marketing digitale. In questo modo permettiamo a esse di avere la massima visibilità possibile combinata a un'immagine forte e di impatto,per dare valore al brand. Di seguito troverete un insieme di lavori e operazioni che abbiamo compiuto per i nostri clienti fidati!
                 </p>
@@ -133,6 +136,10 @@
 
 <style>
 
+.homenav ul{
+     margin-bottom: 0px !important;
+}
+
  .homenav{
   height:10vh;
   background-color: #030203;
@@ -156,7 +163,7 @@
   color: #c3a367;
   transition: 0.5s;
   margin-bottom: -30px;
-  font-size: clamp(50px,8vw,600px);
+  font-size: clamp(30px,8vw,600px);
     font-weight: 600;
     letter-spacing: .11vw;
     line-height: .9;
@@ -179,11 +186,11 @@
 
 .intro h1{
   color: #c6a567;
-  font-size:clamp(20px,6vw,250px) !important;
+  font-size:clamp(35px,3vw,200px) !important;
 }
 
 .intro p{
-  font-size: clamp(10px,4vw,100px);
+  font-size:clamp(16px,2vw,100px);
 }
 
 .logo{
@@ -192,7 +199,7 @@
 }
 
 .intrologo{
-  width: 25%;
+  width: 15%;
 }
 
 .illustration {
@@ -211,7 +218,7 @@
 
 
 .illustration h1 {
-  font-size:clamp(16px,6vw,180px);
+  font-size:clamp(16px,5vw,180px);
 
 }
 
@@ -241,7 +248,7 @@
 @media screen and (min-width: 1730px) {
 
   .illustration p {
-    font-size: 25px !important;
+    font-size: 75px !important;
   }
 
   .esteticap {
@@ -362,6 +369,14 @@
 
   .esteticap {
     font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 585px) {
+
+  .projectdescription{
+     width: 80% !important;
   }
 
 }
