@@ -9,86 +9,123 @@
 <template>
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-   <body class="projectbody">
-     
-      <nav>
-          <ul>
-               <li>
-                    <router-link class="text-dark" :to="{ name: 'Homepage' }">
-                         HOMEPAGE
-                    </router-link>
-               </li>
-          </ul>
-            
-           <ul>
-                <li>
-                 <router-link class="text-dark" :to="{ name: 'Info' }">
-                    INFO
-                 </router-link>
-               </li>
-          </ul>
-     </nav>
-     
-     <div class="textprojcont mb-3">
-      <div class="firstext text-center mb-3 ">
-       <span>MY PROJECTS </span><span class="greyspan">  MY WORK</span>
-      </div>
-      <div class="secondtext text-center mb-3 ">
-       <span class="greyspan">MY SKILLS </span><span>  MY PASSION</span>
-      </div>
-     </div>
+   <body>
      <section>
-          <router-link :to="{ name: 'Firstproject' }" class="routerlink">
-          <div data-aos="fade-up" data-aos-duration="1000" class="firstproj pj col-10 offset-1 mb-2">
-               <div class="projbuttcont d-flex align-items-center justify-content-center text-center">
-              
+     
+            <nav class="homenav">
+                   <ul>
+                       <li>
+                         <router-link :to="{ name: 'ProjectList' }">
+                           <p><img src="/logosocialsystem2.png" alt="" style="width: 20%;">SOCIAL SYSTEM</p>
+                        </router-link>
+                       </li>
+                   </ul>
+            
+                   <ul>
+                       <li>
+                         <router-link :to="{ name: 'Info' }">
+                           <p class="navbutton">CONTATTACI</p> 
+                         </router-link>
+                       </li>
+                   </ul>
+            </nav>
+            <div class="projecthome d-flex align-items-center justify-content-center">
+                <h1>IL NOSTRO LAVORO</h1>
+            </div>
+     
+         </section>
+         <section>
+              <div class="intro d-flex justify-content-center align-items-center">
+               <div data-aos="fade-up"
+            data-aos-duration="3000" class="text-center" style="width: 50%;">
+               <h1 style="font-size: 250px;">IL NOSTRO OBIETTIVO?</h1>
+                <p>Collaborare con aziende e attività con alto potenziale di crescita,e portarle al massimo della loro rendità economica,sfruttando l'online e le nostre strategie di marketing digitale. In questo modo permettiamo a esse di avere la massima visibilità possibile combinata a un'immagine forte e di impatto,per dare valore al brand. Di seguito troverete un insieme di lavori e operazioni che abbiamo compiuto per i nostri clienti fidati!
+                </p>
+                <img class="intrologo" src="/stretta.png" alt="">
+                </div>
+              </div>
+          </section>
+          <section>
+                <!--PRIMA ILLUSTRAZIONE-->
+             <div class="col-12 illustration blackill">
+               <div data-aos="fade-up" data-aos-duration="1000"
+                 class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row p-5">
+                 <div
+                   class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                   <h1 class="h1blue">SVILUPPO SITI E APP</h1>
+                   <p>Sviluppo di siti web professionali e app per Play Store e App Store. I siti sono creati da zero e personalizzabili al 100%, per permettere ai nostri clienti di crearsi un'identità originale,che si distingua dalla concorrenza. </p>
+                   
+                 </div>
+                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                   <img src="/webdev.jpg" alt="">
+                 </div>
                </div>
-          </div>
-          </router-link>
-          <router-link :to="{ name: 'Secondproject' }" class="routerlink">
-          <div data-aos="fade-up" data-aos-duration="1000"  class="secondproj pj col-10 offset-1 mb-2">
-               <div class="projbuttcont d-flex align-items-center justify-content-center text-center">
-                    
+             </div>
+             <!--SECONDA ILLUSTRAZIONE-->
+             <div  class="col-12 illustration silverill ">
+               <div data-aos="fade-up" data-aos-duration="1000"
+                 class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row p-5 ">
+                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                   <img src="/gestionesocial.jpg" alt="">
+                 </div>
+                 <div
+                   class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                   <h1 class="h1blue">SOCIAL MEDIA MANAGEMENT</h1>
+                   <p>Eccelliamo nel social media management con strategie mirate, analisi dettagliate del pubblico e contenuti coinvolgenti. Gestiamo con maestria piattaforme come Facebook, Instagram, Twitter e TikTok, curando profili aziendali con pianificazione e interazioni attente. Ottimizziamo la portata organica, utilizziamo pubblicità mirate e affrontiamo dinamiche online con prontezza, mantenendo una reputazione solida in un ambiente digitale in continua evoluzione.</p>
+                 </div>
                </div>
-          </div>
-          </router-link>
-          <div class="col-10 offset-1 d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row justify-content-between mb-2">
-               <router-link :to="{ name: 'Thirdproject' }" class="routerlink">
-               <div data-aos="fade-up" data-aos-duration="1000" class="thirdproj pj ">
-                  <div class="projbuttcont d-flex align-items-center justify-content-center text-center col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                         
-                    </div> 
+             </div>
+             <!--TERZA ILLUSTRAZIONE-->
+             <div  class="col-12 illustration blackill">
+               <div data-aos="fade-up" data-aos-duration="1000"
+                 class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row p-5">
+                 <div
+                   class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                   <h1 class="h1blue">BIGLIETTI DA VISITA</h1>
+                   <p>
+     La nostra creazione di biglietti da visita è una sintesi di creatività e professionalità. Ogni dettaglio, dalla grafica alla scelta dei materiali, è curato per rappresentare al meglio il vostro marchio. Il design accattivante e la qualità premium trasmettono un'impressione memorabile, garantendo un impatto duraturo nel mondo degli affari.</p>
+                 </div>
+                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                   <img src="/arakadiacut.jpg" alt="">
+                 </div>
                </div>
-               </router-link>
-               <router-link :to="{ name: 'Fourthproject' }" class="routerlink">
-               <div data-aos="fade-up" data-aos-duration="1000" class="fourthdproj pj ">
-                   <div class="projbuttcont d-flex align-items-center justify-content-center text-center col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        
+             </div>
+             <!--QUARTA ILLUSTRAZIONE-->
+             <div  class="col-12 illustration silverill ">
+                    <div data-aos="fade-up" data-aos-duration="1000"
+                      class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row  p-5">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img src="/drmaxcut.jpg" alt="">
+                      </div>
+                      <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-5 mt-sm-5 mt-md-0 mt-lg-0 mt-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                        <h1 class="h1blue">LISTINI</h1>
+                        <p>I nostri listini incarnano trasparenza e valore. Presentano chiaramente i nostri servizi e prodotti con dettagli esaustivi, evidenziando prezzi competitivi e opzioni personalizzabili. La struttura intuitiva facilita la comprensione, offrendo ai clienti un'esperienza di acquisto agevole e informata, sottolineando il nostro impegno per la soddisfazione del cliente.</p>
+                      </div>
                     </div>
-               </div>
-               </router-link>
-          </div>
-          <div class="col-10 offset-1 d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row justify-content-between mb-2">
-                    <router-link :to="{ name: 'Fifthproject' }" class="routerlink">
-                    <div data-aos="fade-up" data-aos-duration="1000" class="fifthproj pj">
-                       <div class="projbuttcont d-flex align-items-center justify-content-center text-center col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                         
-                       </div>
-                    </div>
-                    </router-link>
-                    <router-link :to="{ name: 'Sixthproject' }" class="routerlink">
-                    <div data-aos="fade-up" data-aos-duration="1000"  class="sixthproj pj">
-                       <div class="projbuttcont d-flex align-items-center justify-content-center text-center col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                         
-                       </div>
-                    </div>
-                    </router-link>
-          </div>
-          <div>
-               <img class="logo2" src="/blacklogo.png" alt="">
-          </div>
+                  </div>
 
-     </section>
+                  <!--QUINTA ILLUSTRAZIONE-->
+                  <div  class="col-12 illustration blackill">
+                    <div data-aos="fade-up" data-aos-duration="1000"
+                      class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row p-5">
+                      <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mb-5 mb-sm-5 mb-md-0 mb-lg-0 mb-xl-0 p-1 p-sm-1 p-md-5 p-lg-5 p-xl-5">
+                        <h1 class="h1blue">MANIFESTI</h1>
+                        <p>
+          
+     I nostri manifesti pubblicitari sono il trionfo della creatività e dell'impatto visivo. Con design accattivanti e formati personalizzabili, catturano l'attenzione del pubblico target. L'equilibrio tra messaggi persuasivi e grafica di alta qualità li rende strumenti efficaci per promuovere il vostro brand, offrendo un ritorno sull'investimento tangibile.</p>
+                      </div>
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img src="/manifest.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                  
+          </section>
+     
+      
      
    </body> 
    
@@ -96,152 +133,282 @@
 
 <style>
 
-.routerlink{
-     opacity: 1;
-     transition: 0.8s;
+ .homenav{
+  height:10vh;
+  background-color: #030203;
+  position: fixed;
+  z-index: 100;
 }
 
-.routerlink:hover{
-     opacity: 0.6;
-     
+.homenav p{
+     font-size: clamp(10px,3vw,80px);
 }
 
-.projectbody{
-     background-color: #fcfbfd;
+.projecthome{
+  height: 100vh;
+  width: 100% !important;
+  background-image: url(/projectbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.firstext{
-     margin-right: 240px;
+.projecthome h1{
+  color: #c3a367;
+  transition: 0.5s;
+  margin-bottom: -30px;
+  font-size: clamp(50px,8vw,600px);
+    font-weight: 600;
+    letter-spacing: .11vw;
+    line-height: .9;
+    text-transform: uppercase;
+    text-align: left;
 }
 
-.greyspan{
-     color:rgb(100 100 100);
+.projecthome h1:hover {
+  -webkit-text-stroke: 2px #c3a367;
+  color: transparent;
+
 }
 
-.textprojcont{
-     padding-top: 150px;
-     font-size: 80px;
+.intro{
+  width: 100%;
+  height: 80vh;
+  background-color:#202020 ;
+  color: #d6d6d6;
 }
 
-.firstproj{
-     background-image:url(/dropbox.png);
-     background-size:cover;
-     background-repeat: no-repeat;
-     height: 400px;
-     
+.intro h1{
+  color: #c6a567;
+  font-size:clamp(20px,6vw,250px) !important;
 }
 
-.secondproj{
-     background-image:url(/boolifyPC.png);
-     background-size: cover;
-     height: 400px;
+.intro p{
+  font-size: clamp(10px,4vw,100px);
 }
 
-.thirdproj{
-     background-image:url(/reclameit.png);
-     background-size:cover;
-     height: 400px;
-     width: 41vw;
-     
+.logo{
+  position: fixed;
+  width: 10%;
 }
 
-.fourthdproj{
-    background-image:url(/playstation.png);
-     background-size: cover;
-     height: 400px;
-     width: 41vw;
+.intrologo{
+  width: 25%;
 }
 
-.fifthproj{
-     background-image:url(/boolbnb.png);
-     background-size:cover;
-     height: 400px;
-     width: 41vw;
-     
-}
-
-.sixthproj{
-    background-image:url(/boolfix1.png);
-     background-size: cover;
-     height: 400px;
-     width: 41vw;
-     
-}
-
-.pj{
-   opacity:1;
-   transition: 0.8s;
-   margin-bottom: 0.5rem;
-   
-   
-   
-}
-
-.pj:hover{
-   opacity: 0.6;
-   
-}
-
-
-
-
-.projectbutton{
-  text-decoration: none;
-  color: #000000;
-  font-size: 24px;
-  border: 2px solid #050505;
-  padding: 14px 70px;
-  border-radius: 50px;
-  margin-top: 20px;
-  transition: 0.6s;
-  position: relative;
-  top: 150px;
-  opacity: 10;
-  z-index: 1;
-  opacity: 0;
-  width: 400px;
-  
-
-  
-}
-
-.projectbutton:hover {
-  background-color: #fcfbfd;
-  color: rgb(0, 0, 0);
+.illustration {
+ 
   opacity: 1;
-  transform: scale(1.2);
-}
-
-@media only screen and (max-width: 992px) {
-  .thirdproj{
-     
-     width: 100%;
-     
-}
-
-.fourthdproj{
-    
-     width: 100%;
-}
-
-.fifthproj{
-     
-     width: 100%;
-     
-}
-
-.sixthproj{
-    
-     width: 100%;
-     
-}
-
+  transition: all .4s;
 
 }
 
 
 
+.illustration button:hover {
+  background-color: #ed5ea3;
+  transition: all .4s;
+}
+
+
+.illustration h1 {
+  font-size:clamp(16px,6vw,180px);
+
+}
+
+.illustration p{
+     font-size: 90px !important;
+     color: #d6d6d6;
+}
+
+.illustration img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.h1blue{
+     color: #c3a367;
+}
+
+.blackill{
+     background-color: #030203;
+}
+
+.silverill{
+     background-color: #202020;
+}
+
+
+@media screen and (min-width: 1730px) {
+
+  .illustration p {
+    font-size: 25px !important;
+  }
+
+  .esteticap {
+    font-size: 21px !important;
+  }
+
+}
+
+@media screen and (max-width: 1730px) {
+
+  .illustration p {
+    font-size: 25px !important;
+  }
+
+  .esteticap {
+    font-size: 19px !important;
+  }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+  .illustration p {
+    font-size: 23px !important;
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+
+  .illustration p {
+    font-size: 22px !important;
+  }
+
+  .esteticap {
+    font-size: 17px !important;
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+  .illustration p {
+    font-size: 20px !important;
+  }
+
+  .esteticap {
+    font-size: 16px !important;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+  .illustration p {
+    font-size: 19px !important;
+  }
+
+  .esteticap {
+    font-size: 14px !important;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  .illustration p {
+    font-size: 17px !important;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  .illustration p {
+    font-size: 19px !important;
+  }
+
+}
+
+@media screen and (max-width: 1020px) {
+
+  .illustration p {
+    font-size: 17.5px !important;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .illustration p {
+    font-size: 15px !important;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .illustration p {
+    font-size: 12px !important;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .illustration p {
+    font-size: 11.5px !important;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .illustration p {
+    font-size: 20px !important;
+  }
+
+  .esteticap {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .illustration p {
+    font-size: 16px !important;
+  }
+
+  .esteticap {
+    font-size: 18px;
+  }
+
+}
 
 
 
+
+
+@media screen and (max-width: 1000px) and (min-width: 808px) {
+  .h1blue {
+    font-size: 23px !important;
+  }
+
+
+  .illustration h3 {
+    font-size: 18px !important;
+  }
+
+  .illustration button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 808px) and (min-width: 768px) {
+  .h1blue{
+    font-size: 21px !important;
+  }
+
+
+  .illustration h3 {
+    font-size: 16px !important;
+  }
+
+  .illustration button {
+    width: 60%;
+  }
+}
 </style>
