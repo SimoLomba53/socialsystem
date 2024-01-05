@@ -37,7 +37,7 @@ AOS.init();
           <div class="content gg">
             <div data-aos="fade-up"
            data-aos-duration="3000" class="d-flex flex-row">
-              <div  class="d-flex flex-column" style="width: 50%;">
+              <div  class="d-flex flex-column" style="width: 70%;">
                 <p>AGENCY ESPERTA DI</p>
                 <h1>SOCIAL NETWORK & SVILUPPO WEB</h1>
                 <div class="homebutdiv d-flex align-items-left">
@@ -197,7 +197,7 @@ AOS.init();
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <h6 class="text-uppercase fw-bold">Links</h6>
               <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
@@ -362,7 +362,7 @@ AOS.init();
 }
 
 .homebutdiv{
-  margin-top: 200px;
+  margin-top:clamp(60px,3vw,200px);
 }
 
 .homebutton{
