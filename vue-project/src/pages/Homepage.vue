@@ -18,7 +18,10 @@ AOS.init();
             <ul>
                 <li>
                   <router-link :to="{ name: 'ProjectList' }">
-                    <p><img src="/logosocialsystem2.png" alt="" style="width: 300px;">SOCIAL SYSTEM</p>
+                    <div class="d-flex flex-row align-items-center">
+                             <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
+                             <p class="d-none d-md-block">SOCIAL SYSTEM</p>
+                    </div>
                  </router-link>
                 </li>
             </ul>
@@ -26,12 +29,12 @@ AOS.init();
             <ul>
                 <li>
                   <router-link :to="{ name: 'Info' }">
-                    <p class="navbutton">CONTATTACI</p> 
+                    <p class="navbutton d-none">CONTATTACI</p> 
                   </router-link>
                 </li>
             </ul>
           </nav>
-          <div class="content">
+          <div class="content gg">
             <div data-aos="fade-up"
            data-aos-duration="3000" class="d-flex flex-row">
               <div  class="d-flex flex-column" style="width: 50%;">
@@ -67,7 +70,7 @@ AOS.init();
           <h1 style="font-size: 250px;">CHI SIAMO?</h1>
            <p>Social System è una dinamica web agency all'avanguardia, specializzata nella creazione di soluzioni digitali innovative e strategie di marketing online. Il nostro team esperto combina creatività e tecnologia per sviluppare siti web accattivanti, app intuitive e campagne social media coinvolgenti. Con un approccio centrato sul cliente, ci impegniamo a comprendere le esigenze uniche di ogni cliente per fornire soluzioni su misura. La nostra missione è migliorare la presenza online dei nostri clienti, aumentare la loro visibilità e stimolare l'engagement. Con passione per il design e l'efficacia delle strategie digitali, Social System si distingue come partner affidabile e innovativo nel panorama digitale.
            </p>
-           <img src="/stretta.png" alt="">
+           <img class="intrologo" src="/stretta.png" alt="">
            </div>
          </div>
         </section>
@@ -75,12 +78,12 @@ AOS.init();
            <div class="offer d-flex justify-content-center align-items-center">
             <div class="offercont text-center" style="width: 50%;">
             <h1 style="font-size: 250px;">I NOSTRI SERVIZI</h1>
-             <div class="iconoffer d-flex align-items-center justify-content-between mb-5">
+             <div class="iconoffer d-flex flex-column flex-md-row align-items-center justify-content-between mb-5">
                <div><img src="/codeicon.png" alt=""><h3>Web Development</h3></div>
                <div><img src="/socialicon.png" alt=""><h3>SSM</h3></div>
                <div><img src="/chaticon.png" alt=""><h3>Recensioni</h3></div>
              </div>
-             <div class="d-flex align-items-center justify-content-between mt-5">
+             <div class="d-flex flex-column flex-md-row align-items-center justify-content-between mt-5">
                  <div><img src="/videoicon.png" alt=""><h3>Content Create</h3></div>
                  <div><img src="/graficon.png" alt=""><h3>Sponsor</h3></div>
                  <div><img src="/assistenzaicon.png" alt=""><h3>Assistenza</h3></div>
@@ -301,13 +304,18 @@ AOS.init();
   background-color:#202020 ;
   color: #d6d6d6;
 }
+.intrologo{
+  width: 15%;
+}
+
 
 .intro h1{
   color: #c6a567;
+  font-size:clamp(35px,3vw,200px) !important;
 }
 
 .intro p{
-  font-size: 85px;
+  font-size:clamp(16px,2vw,100px);
 }
 
 .logo{
@@ -317,6 +325,14 @@ AOS.init();
 
 .intrologo{
   width: 20%;
+}
+
+.gg h1{
+  font-size: clamp(30px,8vw,400px);
+}
+
+.gg p{
+  font-size: clamp(30px,8vw,400px);
 }
 
 .offer{
@@ -330,12 +346,13 @@ AOS.init();
 }
 
 .offercont h3{
-  font-size: 70px;
+  font-size:clamp(16px,2vw,70px);
   color: #d6d6d6;
 }
 
 .offercont h1{
   margin-bottom: 150px !important;
+  font-size:clamp(35px,3vw,200px) !important;
 }
 
 .homebuttonimg{
@@ -352,7 +369,7 @@ AOS.init();
   text-decoration: none;
   display: inline-block;
   color: #d6d6d6;
-  font-size: 130px !important;
+  font-size:clamp(20px,4vw,130px)!important;
   border: 2px solid #fcfbfd;
   padding: 14px 70px;
   border-radius: 1000px;
@@ -375,7 +392,7 @@ AOS.init();
 }
 
 .offercont img{
-  width: 650px;
+  width:clamp(70px,7vw,800px) !important;
   transition: 1s;
 }
 
@@ -396,7 +413,7 @@ AOS.init();
 
 .teamcontent h1{
   color: #c6a567;
-  font-size: 250px;
+  font-size:clamp(35px,3vw,200px) !important;
   text-align: center !important;
 }
 
@@ -425,24 +442,26 @@ AOS.init();
 }
 
 .companyname h6{
-  font-size: 120px;
+  font-size:clamp(35px,3vw,200px) !important;
   color: #c4a666;
 }
 
 .companyname p{
-  font-size: 80px;
+  font-size:clamp(16px,2vw,100px);
   color:#d6d6d6
 }
 
 .getconnected{
-  font-size: 60px;
+  font-size:clamp(16px,2vw,100px);
 }
 
 .copyright span{
-  font-size: 60px;
+  font-size:clamp(16px,2vw,100px);
 }
 
 .copyright a{
-  font-size: 60px;
+  font-size:clamp(16px,2vw,100px);
 }
+
+
 </style>

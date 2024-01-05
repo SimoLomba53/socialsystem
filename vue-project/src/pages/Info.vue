@@ -14,7 +14,10 @@ AOS.init();
               <ul>
                   <li>
                     <router-link :to="{ name: 'ProjectList' }">
-                      <p><img src="/logosocialsystem2.png" alt="" style="width: 300px;">SOCIAL SYSTEM</p>
+                      <div class="d-flex flex-row align-items-center">
+                             <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
+                             <p class="d-none d-md-block">SOCIAL SYSTEM</p>
+                           </div>
                    </router-link>
                   </li>
               </ul>
@@ -35,9 +38,9 @@ AOS.init();
        <div  class="datecontact d-flex flex-column p-5 justify-content-center ">
           <div data-aos="fade-up" data-aos-duration="1000" class="contactcontent">
             <h1>SOCIAL SYSTEM</h1>
-            <p><img src="/mapicon.png" alt="">CON SEDE PRINCIPALE IN EMILIA ROMAGNA E OPERATORI ATTIVI IN TUTTO IL PIEMONTE</p>
-            <p><span class="azzurro"><i class="fa-solid fa-phone"></i></span>333 666 9999</p>
-            <p><img src="/mailpng.png" alt="">socialsystem@gmail.com</p>
+            <p><img src="" alt="">CON SEDE PRINCIPALE IN EMILIA ROMAGNA E OPERATORI ATTIVI IN TUTTO IL PIEMONTE</p>
+            <p><span class="azzurro"></span>333 666 9999</p>
+            <p><img src="" alt="">socialsystem@gmail.com</p>
 
             <p class="direttsanit">ORARI DI CONTATTO:</p>
             <p class="direttsanit">SIAMO ATTIVI DAL LUNEDI AL VENERDI</p>
@@ -56,11 +59,21 @@ AOS.init();
 </template>
 
 <style>
-  .homenav{
+
+
+.homenav ul{
+     margin-bottom: 0px !important;
+}
+
+ .homenav{
   height:10vh;
   background-color: #030203;
   position: fixed;
   z-index: 100;
+}
+
+.homenav p{
+     font-size: clamp(10px,3vw,80px);
 }
 
 .contacthome{
@@ -75,7 +88,7 @@ AOS.init();
   color: #c3a367;
   transition: 0.5s;
   margin-bottom: -30px;
-  font-size: 650px;
+  font-size: clamp(30px,8vw,600px);
     font-weight: 600;
     letter-spacing: .11vw;
     line-height: .9;
@@ -101,7 +114,7 @@ AOS.init();
 .datecontact h1 {
   
   color: #c3a367;
-  font-size: 400px;
+  font-size:clamp(42px,3vw,220px) !important;
   font-weight: bold;
 }
 
@@ -111,7 +124,7 @@ AOS.init();
 }
 
 .datecontact p {
-  font-size: 105px;
+  font-size:clamp(18px,2vw,120px);
   color: #d6d6d6;
 
 }

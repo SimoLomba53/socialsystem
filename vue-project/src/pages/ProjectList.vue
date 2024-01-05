@@ -17,7 +17,7 @@
                        <li>
                          <router-link :to="{ name: 'ProjectList' }">
                          <div class="d-flex flex-row align-items-center">
-                           <img src="/logosocialsystem2.png" alt="" style="width: 20%;">
+                           <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
                            <p class="d-none d-md-block">SOCIAL SYSTEM</p>
                          </div>
                         </router-link>
