@@ -7,7 +7,7 @@ AOS.init();
 
 <template>
     <body>
-        <div class="hero">
+        <div class="hero 2">
            <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline>
               <source
                 src='/videosocial.mp4' 
