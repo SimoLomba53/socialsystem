@@ -29,7 +29,7 @@ AOS.init();
             <ul>
                 <li>
                   <router-link :to="{ name: 'Info' }">
-                    <p class="navbutton d-none">CONTATTACI</p> 
+                    <p class="navbutton ">CONTATTACI</p> 
                   </router-link>
                 </li>
             </ul>
