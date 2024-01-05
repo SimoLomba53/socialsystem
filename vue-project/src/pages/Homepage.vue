@@ -36,7 +36,13 @@ AOS.init();
           </nav>
           <div class="content gg">
             <div data-aos="fade-up"
-           data-aos-duration="3000" class="d-flex flex-row">
+           data-aos-duration="3000" class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+               <div class="d-block d-md-none" style="width: 50%;">
+                
+                 <img src="/logosocialsystem2.png" alt="" style="width: 80%;">
+               
+               
+                </div>
               <div  class="d-flex flex-column" style="width: 70%;">
                 <p>AGENCY ESPERTA DI</p>
                 <h1>SOCIAL NETWORK & SVILUPPO WEB</h1>
@@ -50,7 +56,7 @@ AOS.init();
                 
                 
               </div>
-              <div style="width: 50%;">
+              <div class="d-none d-md-block" style="width: 50%;">
                 
                <img src="/logosocialsystem2.png" alt="" style="width: 80%;">
                
