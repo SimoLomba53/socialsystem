@@ -496,6 +496,11 @@ AOS.init();
   margin-bottom: 10px !important;
 }
 
+.offercont img{
+  width:35px !important;
+  transition: 1s;
+}
+
 }
 
 
