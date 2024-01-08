@@ -38,7 +38,7 @@ AOS.init();
        <div  class="datecontact d-flex flex-column p-5 justify-content-center ">
           <div data-aos="fade-up" data-aos-duration="1000" class="contactcontent">
             <h1>SOCIAL SYSTEM</h1>
-            <p><img src="" alt="">BASED IN EMILIA ROMAGNA CON OPERATORI ATTIVI IN TUTTO IL PIEMONTE</p>
+            <p>BASED IN EMILIA ROMAGNA CON OPERATORI ATTIVI IN TUTTO IL PIEMONTE</p>
             <p><span class="azzurro"></span>333 666 9999</p>
             <p><img src="" alt="">socialsystem@gmail.com</p>
 
