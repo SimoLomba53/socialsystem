@@ -120,7 +120,7 @@ AOS.init();
 .datecontact h1 {
   
   color: #c3a367;
-  font-size:clamp(42px,3vw,220px) !important;
+  font-size:clamp(25px,3vw,220px) !important;
   font-weight: bold;
 }
 
@@ -130,7 +130,7 @@ AOS.init();
 }
 
 .datecontact p {
-  font-size:clamp(18px,2vw,120px);
+  font-size:clamp(12px,2vw,120px);
   color: #d6d6d6;
 
 }
