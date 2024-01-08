@@ -91,7 +91,7 @@ AOS.init();
              </div>
              <div class="d-flex flex-column flex-md-row align-items-center justify-content-between mt-5">
                  <div><img src="/videoicon.png" alt=""><h3>Content Create</h3></div>
-                 <div><img src="/graficon.png" alt=""><h3>Sponsor</h3></div>
+                 <div><img src="/graficon.png" alt=""><h3>ADS</h3></div>
                  <div><img src="/assistenzaicon.png" alt=""><h3>Assistenza</h3></div>
              </div>
             </div>
@@ -170,9 +170,7 @@ AOS.init();
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+               Social System, dinamica web agency all'avanguardia, specializzata nella creazione di soluzioni digitali innovative e strategie di marketing online.
               </p>
             </div>
             <!-- Grid column -->
@@ -231,7 +229,7 @@ AOS.init();
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
-              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-home mr-3"></i> Chiusi-54043-SI</p>
               <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
               <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
               <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
