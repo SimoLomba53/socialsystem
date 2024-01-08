@@ -72,7 +72,7 @@ AOS.init();
         <section>
          <div class="intro d-flex justify-content-center align-items-center">
           <div data-aos="fade-up"
-       data-aos-duration="3000" class="text-center" style="width: 50%;">
+       data-aos-duration="3000" class="contintrowidth text-center" style="width: 50%;">
           <h1 style="font-size: 250px;">CHI SIAMO?</h1>
            <p>Social System è una dinamica web agency all'avanguardia, specializzata nella creazione di soluzioni digitali innovative e strategie di marketing online. Il nostro team esperto combina creatività e tecnologia per sviluppare siti web accattivanti, app intuitive e campagne social media coinvolgenti. Con un approccio centrato sul cliente, ci impegniamo a comprendere le esigenze uniche di ogni cliente per fornire soluzioni su misura. La nostra missione è migliorare la presenza online dei nostri clienti, aumentare la loro visibilità e stimolare l'engagement. Con passione per il design e l'efficacia delle strategie digitali, Social System si distingue come partner affidabile e innovativo nel panorama digitale.
            </p>
@@ -476,6 +476,24 @@ AOS.init();
 .copyright a{
   font-size:clamp(16px,2vw,30px);
 }
+
+@media screen and (max-width: 505px) {
+
+  .intro h1{
+  color: #c6a567;
+  font-size:clamp(35px,3vw,100px) !important;
+}
+
+.intro p{
+  font-size:14px!important;
+}
+
+.contintrowidth{
+  width: 70% !important;
+}
+
+}
+
 
 
 </style>
