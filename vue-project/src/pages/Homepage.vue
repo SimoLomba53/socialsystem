@@ -485,11 +485,15 @@ AOS.init();
 }
 
 .intro p{
-  font-size:12px!important;
+  font-size:12.5px!important;
 }
 
 .contintrowidth{
   width: 70% !important;
+}
+
+.offercont h1{
+  margin-bottom: 10px !important;
 }
 
 }
