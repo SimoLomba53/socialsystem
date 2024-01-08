@@ -63,6 +63,7 @@ AOS.init();
 .ss{
   margin-bottom: 0px !important;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 

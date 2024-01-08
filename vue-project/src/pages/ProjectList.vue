@@ -139,6 +139,7 @@
 .ss{
   margin-bottom: 0px !important;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 .homenav ul{
@@ -223,7 +224,7 @@
 
 
 .illustration h1 {
-  font-size:clamp(16px,5vw,180px);
+  font-size:clamp(16px,5vw,50px);
 
 }
 
@@ -253,7 +254,7 @@
 @media screen and (min-width: 1730px) {
 
   .illustration p {
-    font-size: 75px !important;
+    font-size: 23px !important;
   }
 
   .esteticap {
@@ -265,7 +266,7 @@
 @media screen and (max-width: 1730px) {
 
   .illustration p {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 
   .esteticap {

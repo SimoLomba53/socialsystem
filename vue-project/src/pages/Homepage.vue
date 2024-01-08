@@ -34,7 +34,7 @@ AOS.init();
                 </li>
             </ul>
           </nav>
-          <div class="content gg">
+          <div class="content">
             <div data-aos="fade-up"
            data-aos-duration="3000" class="d-flex flex-column flex-md-row justify-content-center align-items-center">
                <div class="d-block d-md-none" style="width: 50%;">
@@ -44,8 +44,8 @@ AOS.init();
                
                 </div>
               <div  class="d-flex flex-column" style="width: 70%;">
-                <p>AGENCY ESPERTA DI</p>
-                <h1>SOCIAL NETWORK & SVILUPPO WEB</h1>
+                <p class="agencyesperta">AGENCY ESPERTA DI</p>
+                <h1 class="h1social">SOCIAL NETWORK & SVILUPPO WEB</h1>
                 <div class="homebutdiv d-flex align-items-left">
                 <router-link :to="{ name: 'ProjectList' }">
                       <p class="homebutton">DIMMI DI PIU</p> 
@@ -274,6 +274,7 @@ AOS.init();
 .ss{
   margin-bottom: 0px !important;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 .homenav{
@@ -338,12 +339,16 @@ AOS.init();
   width: 20%;
 }
 
-.gg h1{
+.h1social{
+  font-size: clamp(30px,8vw,90px) !important;
+}
+
+.agencyesperta{
   font-size: clamp(30px,8vw,90px) !important;
 }
 
 .gg p{
-  font-size: clamp(30px,8vw,90px) !important;
+  font-size: clamp(15px,8vw,50px) !important;
 }
 
 .offer{
@@ -380,7 +385,7 @@ AOS.init();
   text-decoration: none;
   display: inline-block;
   color: #d6d6d6;
-  font-size:clamp(20px,4vw,130px)!important;
+  font-size:clamp(18px,4vw,40px)!important;
   border: 2px solid #fcfbfd;
   padding: 14px 70px;
   border-radius: 1000px;
