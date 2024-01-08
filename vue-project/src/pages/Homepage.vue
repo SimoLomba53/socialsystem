@@ -458,25 +458,25 @@ AOS.init();
 }
 
 .companyname h6{
-  font-size:clamp(35px,3vw,200px) !important;
+  font-size:clamp(20px,3vw,35px) !important;
   color: #c4a666;
 }
 
 .companyname p{
-  font-size:clamp(16px,2vw,100px);
+  font-size:clamp(16px,2vw,25px);
   color:#d6d6d6
 }
 
 .getconnected{
-  font-size:clamp(16px,2vw,100px);
+  font-size:clamp(10px,2vw,20px);
 }
 
 .copyright span{
-  font-size:clamp(16px,2vw,100px);
+  font-size:clamp(16px,2vw,30px);
 }
 
 .copyright a{
-  font-size:clamp(16px,2vw,100px);
+  font-size:clamp(16px,2vw,30px);
 }
 
 
