@@ -18,9 +18,9 @@ AOS.init();
             <ul>
                 <li>
                   <router-link :to="{ name: 'ProjectList' }">
-                    <div class="d-flex flex-row align-items-center">
+                    <div class="d-flex flex-row align-items-center justify-content-center">
                              <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
-                             <p class="d-none d-md-block">SOCIAL SYSTEM</p>
+                             <p class="d-none d-md-block ss">SOCIAL SYSTEM</p>
                     </div>
                  </router-link>
                 </li>
@@ -270,6 +270,12 @@ AOS.init();
 </template>
 
 <style>
+
+.ss{
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+}
+
 .homenav{
   height:10vh;
   background-color: #030203;
@@ -297,7 +303,6 @@ AOS.init();
 }
 
 .homenav p{
-  font-size: 75px;
   display: flex;
   justify-content:center ;
   align-items: center;
@@ -317,11 +322,11 @@ AOS.init();
 
 .intro h1{
   color: #c6a567;
-  font-size:clamp(35px,3vw,200px) !important;
+  font-size:clamp(35px,3vw,100px) !important;
 }
 
 .intro p{
-  font-size:clamp(16px,2vw,100px);
+  font-size:clamp(16px,1.5vw,25px) !important;
 }
 
 .logo{
@@ -334,11 +339,11 @@ AOS.init();
 }
 
 .gg h1{
-  font-size: clamp(30px,8vw,400px);
+  font-size: clamp(30px,8vw,90px) !important;
 }
 
 .gg p{
-  font-size: clamp(30px,8vw,400px);
+  font-size: clamp(30px,8vw,90px) !important;
 }
 
 .offer{

@@ -16,7 +16,7 @@ AOS.init();
                     <router-link :to="{ name: 'ProjectList' }">
                       <div class="d-flex flex-row align-items-center">
                              <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
-                             <p class="d-none d-md-block">SOCIAL SYSTEM</p>
+                             <p class="d-none d-md-block ss">SOCIAL SYSTEM</p>
                            </div>
                    </router-link>
                   </li>
@@ -59,6 +59,11 @@ AOS.init();
 </template>
 
 <style>
+
+.ss{
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+}
 
 
 .homenav ul{

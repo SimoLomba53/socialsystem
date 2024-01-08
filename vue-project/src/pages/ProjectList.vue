@@ -18,7 +18,7 @@
                          <router-link :to="{ name: 'ProjectList' }">
                          <div class="d-flex flex-row align-items-center">
                            <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
-                           <p class="d-none d-md-block">SOCIAL SYSTEM</p>
+                           <p class="d-none d-md-block ss">SOCIAL SYSTEM</p>
                          </div>
                         </router-link>
                        </li>
@@ -136,6 +136,11 @@
 
 <style>
 
+.ss{
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+}
+
 .homenav ul{
      margin-bottom: 0px !important;
 }
@@ -148,7 +153,7 @@
 }
 
 .homenav p{
-     font-size: clamp(10px,3vw,80px);
+     font-size: clamp(10px,3vw,30px) !important;
 }
 
 .projecthome{
