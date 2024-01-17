@@ -135,7 +135,7 @@ AOS.init();
 
         <!-- Right -->
         <div>
-          <a href="" class="text-white me-4">
+          <!--<a href="" class="text-white me-4">
             <i class="fab fa-facebook-f"></i>
           </a>
           <a href="" class="text-white me-4">
@@ -143,16 +143,17 @@ AOS.init();
           </a>
           <a href="" class="text-white me-4">
             <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="text-white me-4">
+          </a>-->
+          <a href="https://www.instagram.com/socialsystem.it?igsh=MzRlODBiNWFlZA==" class="text-white me-4">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="" class="text-white me-4">
+
+          <!--<a href="" class="text-white me-4">
             <i class="fab fa-linkedin"></i>
           </a>
           <a href="" class="text-white me-4">
             <i class="fab fa-github"></i>
-          </a>
+          </a>-->
         </div>
         <!-- Right -->
       </section>
@@ -221,9 +222,9 @@ AOS.init();
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p><i class="fas fa-home mr-3"></i> Chiusi-54043-SI</p>
-              <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              <p><i class="fas fa-envelope mr-3"></i> socialsystem@outlook.it</p>
+              <p><i class="fas fa-phone mr-3"></i>389 884 9274</p>
+              <p><i class="fas fa-print mr-3"></i>392 460 7242</p>
             </div>
             <!-- Grid column -->
           </div>

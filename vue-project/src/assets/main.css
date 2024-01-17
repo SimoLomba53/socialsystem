@@ -462,3 +462,237 @@ nav ul li a {
 
 
 
+.ss {
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.homenav {
+  height: 10vh;
+  background-color: #030203;
+  position: fixed;
+  z-index: 100;
+}
+
+.navbutton {
+  text-decoration: none;
+  display: inline-block;
+  color: #c4a666 !important;
+  font-size: 140px;
+  border: 2px solid #c4a666;
+  padding: 14px 70px;
+  border-radius: 1000px;
+  margin-top: 20px;
+  transition: 1s;
+
+}
+
+.navbutton:hover {
+  background-color: #fcfbfd;
+  color: #c4a666;
+  transform: scale(1.2);
+}
+
+.homenav p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d6d6d6;
+}
+
+.intro {
+  width: 100%;
+  height: 80vh;
+  background-color: #202020;
+  color: #d6d6d6;
+}
+
+.intrologo {
+  width: 15%;
+}
+
+
+.intro h1 {
+  color: #c6a567;
+  font-size: clamp(35px, 3vw, 100px) !important;
+}
+
+.intro p {
+  font-size: clamp(16px, 1.5vw, 25px) !important;
+}
+
+.logo {
+  position: fixed;
+  width: 10%;
+}
+
+.intrologo {
+  width: 20%;
+}
+
+.h1social {
+  font-size: clamp(30px, 8vw, 90px) !important;
+}
+
+.agencyesperta {
+  font-size: clamp(30px, 8vw, 90px) !important;
+}
+
+.gg p {
+  font-size: clamp(15px, 8vw, 50px) !important;
+}
+
+.offer {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.offer h1 {
+  color: #c6a567;
+}
+
+.offercont h3 {
+  font-size: clamp(16px, 2vw, 70px);
+  color: #d6d6d6;
+}
+
+.offercont h1 {
+  margin-bottom: 150px !important;
+  font-size: clamp(35px, 3vw, 200px) !important;
+}
+
+.homebuttonimg {
+  background-image: url(/backpc2.jpg);
+  height: 300px;
+  width: 1000px;
+}
+
+.homebutdiv {
+  margin-top: clamp(60px, 3vw, 200px);
+}
+
+.homebutton {
+  text-decoration: none;
+  display: inline-block;
+  color: #d6d6d6;
+  font-size: clamp(18px, 4vw, 40px) !important;
+  border: 2px solid #fcfbfd;
+  padding: 14px 70px;
+  border-radius: 1000px;
+  transition: 1s;
+  text-align: left;
+
+}
+
+.homebutton:hover {
+  background-color: #fcfbfd;
+  color: white;
+  transform: scale(1.2);
+}
+
+.hero {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.offercont img {
+  width: clamp(70px, 7vw, 800px) !important;
+  transition: 1s;
+}
+
+.offercont img:hover {
+  transform: scale(1.1);
+}
+
+
+.teampart {
+  width: 100%;
+  height: 100vh;
+  background-color: #202020;
+}
+
+.teamcontent {
+  width: 70%;
+}
+
+.teamcontent h1 {
+  color: #c6a567;
+  font-size: clamp(35px, 3vw, 200px) !important;
+  text-align: center !important;
+}
+
+.teamimage img {
+  width: 100%;
+  transition: 1s;
+  height: 60vh;
+
+
+}
+
+.teamimage img:hover {
+  filter: grayscale(80%);
+
+
+}
+
+.teamimage div {
+  width: 25%;
+
+
+}
+
+.companyname {
+  padding: 100px;
+}
+
+.companyname h6 {
+  font-size: clamp(20px, 3vw, 35px) !important;
+  color: #c4a666;
+}
+
+.companyname p {
+  font-size: clamp(16px, 2vw, 25px);
+  color: #d6d6d6
+}
+
+.getconnected {
+  font-size: clamp(10px, 2vw, 20px);
+}
+
+.copyright span {
+  font-size: clamp(16px, 2vw, 30px);
+}
+
+.copyright a {
+  font-size: clamp(16px, 2vw, 30px);
+}
+
+@media screen and (max-width: 505px) {
+
+  .intro h1 {
+    color: #c6a567;
+    font-size: clamp(35px, 3vw, 100px) !important;
+  }
+
+  .intro p {
+    font-size: 12.5px !important;
+  }
+
+  .contintrowidth {
+    width: 70% !important;
+  }
+
+  .offercont h1 {
+    margin-bottom: 10px !important;
+  }
+
+  .offercont img {
+    width: 35px !important;
+    transition: 1s;
+  }
+
+}
