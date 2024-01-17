@@ -185,42 +185,31 @@ AOS.init();
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
+              <router-link :to="{ name: 'ProjectList' }">   
               <p>
                 <a href="#!" class="text-white">WebSite & App</a>
               </p>
+              </router-link> 
+              <router-link :to="{ name: 'ProjectList' }">  
               <p>
                 <a href="#!" class="text-white">SSM</a>
               </p>
+              </router-link> 
+              <router-link :to="{ name: 'ProjectList' }">  
               <p>
                 <a href="#!" class="text-white">Pubblicità</a>
               </p>
+              </router-link>
+              <router-link :to="{ name: 'ProjectList' }">   
               <p>
                 <a href="#!" class="text-white">Graphic Support</a>
               </p>
+              </router-link> 
             </div>
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Links</h6>
-              <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style="width: 60px; background-color: #7c4dff; height: 2px"
-                  />
-              <p>
-                <a href="#!" class="text-white">Your Account</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Become an Affiliate</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Shipping Rates</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Help</a>
-              </p>
-            </div>
+          
             <!-- Grid column -->
 
             <!-- Grid column -->
@@ -245,9 +234,9 @@ AOS.init();
 
       <!-- Copyright -->
       <div class=" copyright text-center p-3" style="background-color:#202020">
-        <span>©2024 - socialsystem.it:</span>
+        <span>©2024 - socialsystem.it -</span>
         <a class="text-white" href="https://mdbootstrap.com/"
-           >All Right Reserved</a
+           > All Right Reserved</a
           >
       </div>
       <!-- Copyright -->
