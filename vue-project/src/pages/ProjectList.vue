@@ -15,7 +15,7 @@
             <nav class="homenav">
                    <ul>
                        <li>
-                         <router-link :to="{ name: 'ProjectList' }">
+                         <router-link :to="{ name: 'Homepage' }">
                          <div class="d-flex flex-row align-items-center">
                            <img src="/logosocialsystem2.png" alt="" style="width: 50px;">
                            <p class="d-none d-md-block ss">SOCIAL SYSTEM</p>
