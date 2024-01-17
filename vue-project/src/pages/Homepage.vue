@@ -98,7 +98,7 @@ AOS.init();
           </div>
           </section>
 
-          <section>
+          <!--<section>
             <div class="teampart d-flex justify-content-center align-items-center">
               <div class="teamcontent d-flex justify-content-center align-items-center flex-column">
               <h1 class="text-center mb-5">IL NOSTRO TEAM</h1>
@@ -113,7 +113,7 @@ AOS.init();
 
               </div>
             </div>
-          </section>
+          </section>-->
 
          <div>
 
@@ -245,9 +245,9 @@ AOS.init();
 
       <!-- Copyright -->
       <div class=" copyright text-center p-3" style="background-color:#202020">
-        <span>© 2020 Copyright:</span>
+        <span>©2024 - socialsystem.it:</span>
         <a class="text-white" href="https://mdbootstrap.com/"
-           >SOCIAL SYSTEM</a
+           >All Right Reserved</a
           >
       </div>
       <!-- Copyright -->

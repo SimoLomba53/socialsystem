@@ -38,9 +38,9 @@ AOS.init();
        <div  class="datecontact d-flex flex-column p-5 justify-content-center ">
           <div data-aos="fade-up" data-aos-duration="1000" class="contactcontent">
             <h1>SOCIAL SYSTEM</h1>
-            <p>BASED IN EMILIA ROMAGNA CON OPERATORI ATTIVI IN TUTTO IL PIEMONTE</p>
-            <p><span class="azzurro"></span>333 666 9999</p>
-            <p><img src="" alt="">socialsystem@gmail.com</p>
+            <p>SEDE IN TOSCANA OPERATORI ATTIVI IN TUTTO IL PIEMONTE</p>
+            <p><span class="azzurro"></span>389 884 9274 - 392 460 7242</p>
+            <p><img src="" alt="">socialsystem@outlook.it</p>
 
             <p class="direttsanit">ORARI DI CONTATTO:</p>
             <p class="direttsanit">SIAMO ATTIVI DAL LUNEDI AL VENERDI</p>
