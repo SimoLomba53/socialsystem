@@ -160,10 +160,10 @@ AOS.init();
                     class="mb-4 mt-0 d-inline-block mx-auto"
                     style="width: 60px; background-color: #7c4dff; height: 2px"
                     />
-                <p><i class="fas fa-home mr-3"></i> Chiusi-54043-SI</p>
-                <p><i class="fas fa-envelope mr-3"></i> socialsystem@outlook.it</p>
-                <p><i class="fas fa-phone mr-3"></i>389 884 9274</p>
-                <p><i class="fas fa-print mr-3"></i>392 460 7242</p>
+                <p> Chiusi-54043-SI</p>
+                <p> socialsystem@outlook.it</p>
+                <p>389 884 9274</p>
+                <p>392 460 7242</p>
               </div>
               <!-- Grid column -->
             </div>
